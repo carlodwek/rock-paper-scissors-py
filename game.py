@@ -2,7 +2,7 @@ import random
 import os
 from dotenv import load_dotenv
 load_dotenv()
-username = os.getenv("USER_NAME", default="Player One")
+username = os.getenv("PLAYER_NAME", default="Player One")
 
 print("Welcome " + username + " to Rock-Paper-Scissors...")
 def main():
